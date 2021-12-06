@@ -1,0 +1,103 @@
+
+body{
+    font-size: 18px;
+    background-image: url('https://mdbootstrap.com/img/new/standard/city/041.jpg');
+            height: 65vh"
+    
+}
+h1 {
+    font-family:Georgia,serif;
+    color:#666666;
+    font-size:30px;
+    line-height:1em;
+    margin:0 0 0 60px;
+    }
+ h1 strong{
+    color:#081074;
+    display:block;
+    font-size:85px;
+    font-weight:normal;
+    letter-spacing:-3.5px;
+    line-height:1em;
+     }
+h1.title{
+    display: flex;
+    text-align:center;
+    margin-bottom: 30px;
+    
+}
+.main-content{
+    font-family:Georgia,serif;
+    background-color:white;
+    max-width: 1150px;
+    margin: 50px auto;
+    position: relative;
+    padding: 40px;
+    box-shadow: 0 20px 40px 0px;
+    border-radius: 25px;
+    background-image: linear-gradient( rgb(241, 232, 232) , rgb(240, 240, 208),rgb(241, 232, 232));
+    
+}
+.k-grid{
+    margin-bottom: 40px;
+}
+#form1{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#form2{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+}
+#form3{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#form4{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+#d-grid{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+    
+}
+#myTable{
+    text-align: center;
+}
+.main-content .btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+#crew-list{
+   /* padding: 10px; */
+   align-items:center;
+   margin-bottom: 20px;
+   max-width: 1000px;
+}
+button.btn-warning{
+	cursor: pointer;
+	width: 18%;
+   
+    
+}
+button.btn-primary{
+    cursor: pointer;
+	width: 18%;
+    
+}
+label{
+    margin:0.7px;
+}
+.alert{
+    background-color:rgb(236, 236, 182) ;
+    text-align: center;
+}

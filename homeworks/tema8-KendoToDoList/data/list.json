@@ -1,0 +1,27 @@
+[
+    {
+        "taskName": "Grocery",
+        "taskDescription": "Go by milk",
+        "startDate": "02/09/2021",
+        "dueDate": "16/11/2021",
+        "userStatus":"Done",
+        "user": "Me"
+    },
+    {
+        
+        "taskName": "Cleaning",
+        "taskDescription": "You have to clean the bathroom",
+        "startDate": "05/09/2021",
+        "dueDate": "23/10/2021",
+        "userStatus":"In progress",
+        "user": "You"
+    },{
+        
+        "taskName": "Cooking",
+        "taskDescription": "Musaka",
+        "startDate": "12/08/2021",
+        "dueDate": "01/08/2022",
+        "userStatus":"In progress",
+        "user": "You"
+    }
+]
