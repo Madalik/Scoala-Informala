@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <script src="jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="content">
+        <div class="main-content">
+            <h1 class="title">To<strong>DO</strong> list</h1>
+            <div class="container"></div>
+            <table id="crew-list" class="table table-bordered">
+                <thead class="form-field">
+                    <tr class="alert alert-warning" role="alert">
+                        <td>Task Name</td>
+                        <td>Task Description</td>
+                        <td>Start date</td>
+                        <td>Due date</td>
+                        <td>Status</td>
+                        <td>User</td>
+                        <td>Action</td>
+                    </tr>
+                </thead>
+                <tbody id="myTable">
+                </tbody>
+            </table>
+            <fieldset>
+                <form id="crew-form" class="contact-form">
+                    <div class="row form-group" id="form1">
+                        <div class="form-field col-lg-6">
+                            <label for="task-name">Task Name</label>
+                            <input class="form-control" type="text" name="task-name" id="task-name" />
+                        </div>
+                        <div class="form-field col-lg-6">
+                            <label for="task-description">Task Description</label>
+                            <textarea class="form-control" type="text" name="task-description"
+                                id="task-description"></textarea>
+                        </div>
+                    </div>
+                    <div class="row form-group" id="form2">
+                        <div class="form-field col-lg-6">
+                            <label for="start-date">Start date</label>
+                            <input class="form-control" type="date" name="start-datee" id="start-date" />
+                        </div>
+                        <div class="form-field col-lg-6">
+                            <label for="due-date">Due date</label>
+                            <input class="form-control" type="date" name="due-date" id="due-date"></input>
+                        </div>
+                    </div>
+                    <form class="status-form">
+                        <div class="text-left">
+                            <div class="form-field col-lg-2" id="form3">
+                                <label for="user-status">Status</label>
+                                <div class="input-group">
+                                    <select class="form-control" id="user-status">
+                                        <option>To do</option>
+                                        <option>In progress</option>
+                                        <option>Done</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-field col-lg-2" id="form4">
+                                <label for="assigned-user">Usser</label>
+                                <div class="input-group">
+                                    <select class="form-control" id="user">
+                                        <option>Me</option>
+                                        <option>You</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end" id="d-grid">
+                        <div class="text-right">
+                            <button id="add-crew" class="btn btn-warning btn-lg" type="button">Add task</button>
+                            <button id="submit" class="btn btn-primary btn-lg" type="submit">Save</button>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>

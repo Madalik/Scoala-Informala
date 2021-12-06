@@ -1,0 +1,19 @@
+[
+    {
+        "taskName": "Grocery",
+        "taskDescription": "Go by milk",
+        "startDate": "22.12.2021",
+        "dueDate": "23.12.2021",
+        "userStatus":"Done",
+        "user": "Me"
+    },
+    {
+        
+        "taskName": "Cleaning",
+        "taskDescription": "You have to clean the bathroom",
+        "startDate": "05.11.2021",
+        "dueDate": "23.12.2021",
+        "userStatus":"In progress",
+        "user": "You"
+    }
+]
