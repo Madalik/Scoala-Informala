@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="tema.js"></script>
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <section class="main-content">
+        <div class="user-img">
+            <img src="casa.png">
+        </div>
+        <h1 class="title">characters</h1>
+        <div class="container"></div>
+        <table id="crew-list" class="table table-bordered">
+            <thead>
+                <td>ID</td>
+                <td>Character name</td>
+                <td>Actor/Actress name</td>
+                <td>Image</td>
+            </thead>
+            <tbody id="myTable">
+            </tbody>
+        </table>
+        <button id="add-crew" class="btn btn-danger">Add crew member</button>
+        <form id="crew-form" class="contact-form row">
+            <div class="form-field col-lg-6">
+                <label for="id">ID</label>
+                <input class="form-control" type="number" name="id" id="id" />
+            </div>
+            <div class="form-field col-lg-6">
+                <label for="charcter-name">Character Name</label>
+                <input class="form-control" type="text" name="charcter-name" id="character-name" />
+            </div>
+            <div class="form-field col-lg-6">
+                <label for="actor-name">Actor Name</label>
+                <input class="form-control" type="text" name="actor-name" id="actor-name" />
+            </div>
+            <div class="form-field col-lg-6" id="display_image">
+                <label for="file">Image</label>
+                <input class="form-control" type="file" name="picture" id="image_input" accept="image/png, image/jpg" />
+            </div>
+            <button id="submit" class="btn btn-primary" type="submit" type="button" id="updateButton">Save</button>
+        </form>
+        </div>
+    </section>
+</body>
+</html>
