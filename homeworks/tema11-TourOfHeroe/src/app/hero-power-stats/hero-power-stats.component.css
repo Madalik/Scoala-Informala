@@ -1,0 +1,32 @@
+ul li {
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.power-str {
+  background-color: red;
+  color: white;
+}
+
+.power-int {
+  background-color: blue;
+}
+
+.power-spd {
+  background-color: green;
+}
+
+.power-cbt {
+  background-color: chocolate;
+}
+
+input {
+  width: 110px;
+  margin: 0px 5px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-radius: 20px;
+}

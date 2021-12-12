@@ -1,0 +1,30 @@
+<div *ngIf="powerStats$ | async as powerStats">
+  <ul class="list-unstyled d-flex mt-3">
+    <li class="power-str px-3">
+      Strength: <span> {{ powerStats?.strength }} </span>
+    </li>
+    <li class="power-int px-3">
+      Intelligence: <span> {{ powerStats?.intelligence }} </span>
+    </li>
+    <li class="power-spd px-3">
+      Speed: <span> {{ powerStats?.speed }} </span>
+    </li>
+    <li class="power-cbt px-3">
+      Combat: <span> {{ powerStats?.combat }} </span>
+    </li>
+  </ul>
+  <div class="d-flex" (input)="broadcastChanges(powerStats)">
+    <input
+      type="number"
+      [(ngModel)]="powerStats.strength"
+      placeholder="Strength"
+    />
+    <input
+      type="number"
+      [(ngModel)]="powerStats.intelligence"
+      placeholder="Intelligence"
+    />
+    <input type="number" placeholder="Speed" [(ngModel)]="powerStats.speed" />
+    <input type="number" placeholder="Combat" [(ngModel)]="powerStats.combat" />
+  </div>
+</div>
