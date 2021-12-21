@@ -1,0 +1,24 @@
+#sticky-footer {
+  height: 100%;
+}
+.navbar {
+     background-color: rgb(250, 250, 186);
+}
+
+.py-5 {
+  height: 80px;
+  min-height: 500px;
+  background-image: url("https://source.unsplash.com/bF2vsubyHcQ/1920x1080");
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.navbar{
+    opacity: 0.8;
+}
+.navbar-brand{
+  display: block;
+  height: 90px;
+ object-fit: contain; 
+}
