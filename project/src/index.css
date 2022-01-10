@@ -1,13 +1,146 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+
+/* base styles */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Quicksand";
+  color: #333;
+}
+.app {
+  height: 80px;
+  min-height: 900px;
+  background-image: url("https://source.unsplash.com/bF2vsubyHcQ/1920x1080");
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container {
+  text-align: center;
+  
+}
+.navbar {
+     background-color: rgb(250, 250, 186);
+     opacity: 0.8;
+     
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-brand{
+  display: block;
+  height: 90px;
+ object-fit: contain; 
+}
+
+.navbar h1 {
+  color: #272522;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #272522;
+  font-size: 20px;
+}
+.navbar a:hover {
+  color: rgb(209, 100, 12);
+  font-weight: bold;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.blog-list h2 {
+  font-size: 30px;
+  color:#fff;
+   margin-top: 15px;
+}
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 20px 10px 10px rgba(17, 16, 16, 0.1);
+  color: rgb(209, 100, 12);
+  font-weight: bold;
+}
+.blog-preview h2 {
+  font-size: 30px;
+  color: rgb(209, 100, 12);
+  margin-bottom: 8px;
+  font-weight: bolder;
+}
+.blog-preview a{
+  text-decoration: none;
+  text-decoration-color: #fff;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details article {
+  display:block;
+  text-align:center;
+  margin-top: 60px;
+  
+}
+.blog-details button {
+  background: #272522;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 10px;
+}
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #272522;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+button {
+  margin: 10px;
+}
+small {
+  color: #fff;
 }

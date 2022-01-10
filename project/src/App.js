@@ -1,28 +1,37 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Header from './components/Header';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Footer from "./components/Footer";
+import Header from "./components/header/Header";
+import Home from "././components/Home";
+import Create from "././components/Create";
+import BlogDetails from "././components/BlogDetails";
+import NotFound from "././components/NotFound";
 
 function App() {
   return (
-    <div className="App">
-     
-      <Header/>
-         <Navbar />
-      <section className="py-5">
+    <Router>
+      <div className="app">
+        <Header />
         <div className="container">
-          <h2 className="fw-light">Page Content</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Repellendus ab nulla dolorum autem nisi officiis blanditiis
-            voluptatem hic, assumenda aspernatur facere ipsam nemo ratione
-            cumque magnam enim fugiat reprehenderit expedita.
-          </p>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/create">
+              <Create />
+            </Route>
+            <Route path="/blogs/:id">
+              <BlogDetails />
+            </Route>
+            <Route path="*">
+              <NotFound />
+            </Route>
+          </Switch>
         </div>
-      </section>
+      </div>
       <Footer />
-    </div>
+    </Router>
   );
 }
 
