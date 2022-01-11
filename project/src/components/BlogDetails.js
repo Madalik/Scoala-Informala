@@ -24,17 +24,21 @@ const BlogDetails = () => {
   
   return (
     <div className="blog-details">
-      {isPending && <div>Loading...</div>}
-      {error && <div>{error}</div>}
-      {blog && (
-        <article>
-          <h2>{blog.title}</h2>
-          <p>Written by {blog.author}</p>
-          <div>{blog.body}</div>
-          <button onClick={handleClick}>Delete</button>
-          <button onClick={handleRedirectToEdit}>Edit</button>
-        </article>
-      )}
+      <div className="row">
+        <div className="col-6">
+          {isPending && <div>Loading...</div>}
+          {error && <div>{error}</div>}
+          {blog && (
+            <article>
+              <h2>{blog.title}</h2>
+              <p>Written by {blog.author}</p>
+              <div>{blog.body}</div>
+              <button onClick={handleClick}>Delete</button>
+              <button onClick={handleRedirectToEdit}>Edit</button>
+            </article>
+          )}
+        </div>
+      </div>
     </div>
   );
 };

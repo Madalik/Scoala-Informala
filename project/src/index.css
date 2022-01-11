@@ -94,6 +94,7 @@
   display:block;
   text-align:center;
   margin-top: 60px;
+  margin-right: 60px;
   
 }
 .blog-details button {
@@ -111,6 +112,7 @@
   margin: 0 auto;
   text-align: center;
   margin-top: 40px;
+  margin-left: 80px;
 }
 .create label {
   text-align: left;
@@ -143,4 +145,8 @@ button {
 }
 small {
   color: #fff;
+}
+input, textarea, select {
+  border-radius:10px;
+  padding:10px;
 }

@@ -44,29 +44,35 @@ const Edit = () => {
 
   return (
     <div className="create">
-      <h2>Edit Blog</h2>
-      <form onSubmit={handleSubmit}>
-        <label>Blog title:</label>
-        <input
-          type="text"
-          required
-          value={title}
-          onChange={(e) => setTitle(e.target.value)}
-        />
-        <label>Blog body:</label>
-        <textarea
-          required
-          value={body}
-          onChange={(e) => setBody(e.target.value)}
-        ></textarea>
-        <label>Blog author:</label>
-        <select value={author} onChange={(e) => setAuthor(e.target.value)}>
-          <option value="mario">mario</option>
-          <option value="yoshi">yoshi</option>
-        </select>
+      <div className="row">
+        <div className="col">
+          <h2>Edit Blog</h2>
+          <form onSubmit={handleSubmit}>
+            <label>Blog title:</label>
+            <input
+              type="text"
+              required
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+            />
+            <label>Blog body:</label>
+            <textarea
+              required
+              value={body}
+              onChange={(e) => setBody(e.target.value)}
+            ></textarea>
+            <label>Blog author:</label>
+            <select value={author} onChange={(e) => setAuthor(e.target.value)}>
+              <option value="mario">mario</option>
+              <option value="yoshi">yoshi</option>
+            </select>
 
-        <button disabled={isPending}>{(isPending && 'Loading...') || 'Edit blog'}</button>
-      </form>
+            <button disabled={isPending}>
+              {(isPending && "Loading...") || "Edit blog"}
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 };
