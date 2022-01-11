@@ -6,6 +6,7 @@ import Home from "././components/Home";
 import Create from "././components/Create";
 import BlogDetails from "././components/BlogDetails";
 import NotFound from "././components/NotFound";
+import Edit from "./components/Edit";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
             </Route>
             <Route path="/create">
               <Create />
+            </Route>
+            <Route path="/blogs/:id/edit">
+              <Edit />
             </Route>
             <Route path="/blogs/:id">
               <BlogDetails />

@@ -10,7 +10,7 @@
 }
 .app {
   height: 80px;
-  min-height: 900px;
+  min-height: 1000px;
   background-image: url("https://source.unsplash.com/bF2vsubyHcQ/1920x1080");
   opacity: 0.9;
   background-size: cover;
