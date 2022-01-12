@@ -22,7 +22,6 @@ const Create = () => {
         }).then(() => {
           console.log("new blog added");
           setIsPending(false);
-          //  history.go(-1);
           history.push("/");
         });
        
@@ -43,6 +42,7 @@ const Create = () => {
         <textarea
           required
           value={body}
+          rows={8}
           onChange={(e) => setBody(e.target.value)}
         ></textarea>
         <label>Blog author:</label>

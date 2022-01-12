@@ -12,7 +12,7 @@ const Edit = () => {
   const [isPending, setIsPending] = useState(true);
 
   useEffect(() => {
-    fetch(`http://127.0.0.1:3000/blogs/${id}`)
+    fetch(`http://localhost:3000/blogs/${id}`)
       .then((response) => {
         if (response) {
           return response.json();
@@ -33,7 +33,7 @@ const Edit = () => {
     e.preventDefault();
     const blog = { title, body, author };
 
-    fetch(`http://127.0.0.1:3000/blogs/${id}`, {
+    fetch(`http://localhost:3000/blogs/${id}`, {
       method: "PUT",
       headers: { "Content-Type": " application/json" },
       body: JSON.stringify(blog),
@@ -59,12 +59,13 @@ const Edit = () => {
             <textarea
               required
               value={body}
+              rows={8}
               onChange={(e) => setBody(e.target.value)}
             ></textarea>
             <label>Blog author:</label>
             <select value={author} onChange={(e) => setAuthor(e.target.value)}>
-              <option value="mario">mario</option>
-              <option value="yoshi">yoshi</option>
+              <option value="Mari">Mari</option>
+              <option value="Lola">Lola</option>
             </select>
 
             <button disabled={isPending}>
