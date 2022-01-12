@@ -21,7 +21,6 @@ const BlogDetails = () => {
     });
   };
 
-  
   return (
     <div className="blog-details">
       <div className="row">
