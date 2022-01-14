@@ -13,9 +13,9 @@ const Edit = () => {
 
   useEffect(() => {
     fetch(`http://localhost:3000/blogs/${id}`)
-      .then((response) => {
-        if (response) {
-          return response.json();
+      .then((res) => {
+        if (res) {
+          return res.json();
         }
       })
       .then((data) => {

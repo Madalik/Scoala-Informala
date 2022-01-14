@@ -15,6 +15,7 @@ function Header() {
             <ul className="navbar-nav ms-auto">
               <Link to="/">All titles</Link>
               <Link to="/create">Add Blog</Link>
+              <Link to="/about">About me</Link>
             </ul>
           </div>
         </div>
