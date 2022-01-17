@@ -1,6 +1,4 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
-// import { faHome, faFacebookF } from "@fortawesome/free-solid-svg-icons";
 
 const About = () => {
   return (
@@ -13,7 +11,6 @@ const About = () => {
       </div>
       <div class="content">
         <h2>About Me</h2>
-        {/* <span><!-- line here --></span> */}
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis
           aspernatur voluptas inventore ab voluptates nostrum minus illo laborum
@@ -47,7 +44,7 @@ const About = () => {
           </li>
           <li>
             <a target="_blank" href="https://www.github.com/">
-            <FontAwesomeIcon icon={["fab", "github"]} />
+              <FontAwesomeIcon icon={["fab", "github"]} />
             </a>
           </li>
         </ul>
