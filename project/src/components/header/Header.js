@@ -6,10 +6,12 @@ function Header() {
   return (
     <>
       <nav className="navbar navbar-expand ">
-        <div className="container">
-          <Link to="/">
-            <img src={logo} alt="" ></img>
-          </Link>
+        <div className="container-fluid">
+          <div className="navbar-link">
+            <Link to="/">
+              <img src={logo} alt=""></img>
+            </Link>
+          </div>
           <h1>The Orange blog</h1>
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ms-auto">
