@@ -18,6 +18,7 @@ function Header() {
               <Link to="/">All titles</Link>
               <Link to="/create">Add Blog</Link>
               <Link to="/about">About me</Link>
+              <Link to="/resources">Resources</Link>
             </ul>
           </div>
         </div>

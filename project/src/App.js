@@ -9,6 +9,7 @@ import NotFound from "././components/NotFound";
 import Edit from "./components/Edit";
 import About from "./components/About";
 import initFontAwesome from "./components/initFontAwesome";
+import Resources from "./components/Resources";
 initFontAwesome();
 
 
@@ -27,6 +28,9 @@ function App() {
             </Route>
             <Route path="/about">
               <About />
+            </Route>
+            <Route path="/resources">
+              <Resources />
             </Route>
             <Route path="/blogs/:id/edit">
               <Edit />

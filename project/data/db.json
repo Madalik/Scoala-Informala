@@ -1,40 +1,28 @@
 {
   "blogs": [
     {
-      "title": "Everyone Loves Competition",
-      "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "title": "This European Country Will Pay You to Visit",
+      "body": "Malta, a stunning island nation in the Mediterranean Sea, will pay you to visit this year. \n\nOpening June 1 to tourism, Malta’s travel incentives will offer vouchers for both hotels and diving excursions. Malta hopes their incentives will bring in around 35,000 tourists and usher in a strong return to tourism. If you’re interested in getting paid to stay in a hotel or dive off the coast of Malta, this might be for you. \nou can get a voucher for up to 100 Euros ($120) per person for a hotel. The amount you’re eligible for will depend on the star-rating of the hotel and you must stay at least three nights to qualify for the incentive. \n\nFor the three-night stay, travelers can be reimbursed:\n\n€100 per person for a five-star hotel\n€75 per person for a four-star hotel\n€50 per person for a three-star hotel\nIf you want to stay in a hotel on the neighboring island of Gozo, you’ll get an additional 10 percent on top of that. ",
       "author": "mari",
       "id": 9
     },
     {
-      "title": "What We Do When...",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.\nAliquam gravida ipsum bibendum, gravida turpis eget, fermentum magna.\nNunc feugiat nisl in sem congue sodales.",
+      "title": "What It’s Like To Travel To Europe Right Now",
+      "body": "In August 2021, I went on a two-week trip to Europe, and was pleasantly surprised at how free I felt to enjoy my time there. I was expecting testing and entry protocols to be much more stringent, and for locals to be hesitant about me being there. However, that didn’t turn out to be the case. Here’s what it’s like to travel to Europe now, along with tips for going during the pandemic. \n\nI flew to Madrid via Brussels, and spent four days in the Spanish capital. \n\nFrom Spain, I flew to Georgia (the country, not the state), and toured around with a friend from Germany for ten days. My routing was Madrid – Istanbul – Tbilisi.\n\nThe final stop on my trip was New York, where I flew to via Istanbul, once again. Then it was back to Austin.",
       "author": "Lola",
       "id": 10
     },
     {
-      "title": "What We Do When...",
-      "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "title": "Fall Travel Clothes for Changing Seasons",
+      "body": "Fall is a tricky time of year for packing since it’s hard to know if you should pack for summer temperatures or wintery weather. The best solve is to choose items that will work whether it’s pouring rain or hot and sunny.\nLeggings are the perfect layering piece for women since you can wear them under a dress and easily slip them off if you get too hot.\nVests are another great transitional piece. They help keep your core warm without making you too hot. \nSmartwool’s long sleeve crew top is my go-to base layer. I wear it under a jacket when skiing, and pair it with jeans or a skirt for a simple but warm outfit that won’t require a coat on a brisk fall day.\nI love big scarves for traveling—they can double as a blanket, a shoulder cover, or even a towel.",
       "author": "Lola",
       "id": 11
     },
     {
-      "title": "mada",
-      "body": "We see that the image is being squished to fit the container of 200x300 pixels (its original aspect ratio is destroyed).\n\nHere is where the object-fit property comes in. The object-fit property can take one of the following values:\n\nfill - This is default. The image is resized to fill the given dimension. If necessary, the image will be stretched or squished to fit\ncontain - The image keeps its aspect ratio, but is resized to fit within the given dimension\ncover - The image keeps its aspect ratio and fills the given dimension. The image will be clipped to fit\nnone - The image is not resized\nscale-down - the image is scaled down to the smallest version of none or contain",
+      "title": "How to Prevent Flight Delays (and What to Do If They Happen Anyway)",
+      "body": "Why Are Flights Delayed?\nWhen an airline reports a delay, it is placed in one of five categories created by the Air Carrier On-Time Reporting Advisory Committee, which, yes, is very much a thing. They include:\n\nExtreme Weather: According to the Bureau of Transportation Statistics, weather woes made up around 38 percent of all delays in 2019. That includes snowstorms, hurricanes, and any other meteorological condition that prevents the carrier from making the flight.\n\nNational Aviation System: America’s crumbling infrastructure system has become a key talking point for both political parties, and that includes neglected airports and an outdated air traffic control network. These conditions make it difficult to manage the growing volume of flights and result in delays.\n\nSecurity Concerns: If your flight has ever been delayed during a government shutdown, it was most likely flagged as a security-related issue. These types of delays are a result of snags in airport security operations such as broken screening equipment, security breaches, or excessively long wait times.\n\nLate-Arriving Aircraft: This is an all-too-familiar scenario for most flyers. Your departure time has come and gone, but you’re still waiting around the gate for your plane to arrive from its previous city.",
       "author": "mari",
-      "id": 13
-    },
-    {
-      "title": "mADA",
-      "body": "https://media.istockphoto.com/photos/hiker-in-yosemite-national-park-california-usa-picture-id1135112953?b=1&k=20&m=1135112953&s=170667a&w=0&h=GzLbX6A93BINl1B1SqnjrEOoRp6Wm_fvklZCdUjSDBA=",
-      "author": "mari",
-      "id": 14
-    },
-    {
-      "title": "ADE",
-      "body": "https://media.istockphoto.com/photos/hiker-in-yosemite-national-park-california-usa-picture-id1135112953?b=1&k=20&m=1135112953&s=170667a&w=0&h=GzLbX6A93BINl1B1SqnjrEOoRp6Wm_fvklZCdUjSDBA=",
-      "author": "mari",
-      "id": 15
+      "id": 12
     }
   ]
 }
