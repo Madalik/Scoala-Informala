@@ -9,7 +9,7 @@ import NotFound from "././components/NotFound";
 import Edit from "./components/Edit";
 import About from "./components/About";
 import initFontAwesome from "./components/initFontAwesome";
-import Resources from "./components/Resources";
+import TravelHints from "./components/TravelHints";
 initFontAwesome();
 
 
@@ -23,14 +23,14 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
+            <Route path="/travelhints">
+              <TravelHints />
+            </Route>
             <Route path="/create">
               <Create />
             </Route>
             <Route path="/about">
               <About />
-            </Route>
-            <Route path="/resources">
-              <Resources />
             </Route>
             <Route path="/blogs/:id/edit">
               <Edit />

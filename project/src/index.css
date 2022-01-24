@@ -27,6 +27,7 @@
 }
 
 /*navbar */
+
 .navbar-link img {
   height: 80px;
 }
@@ -40,7 +41,8 @@
 }
 
 .navbar h1 {
-  color: #272522;
+  color: rgb(209, 100, 12);
+  font-weight: bold;
   margin-left: 30px;
 }
 .navbar .links {
@@ -70,10 +72,10 @@
   margin-left: 50px;
 }
 .blog-list h2 {
-  font-size: 30px;
-  color: #fff;
+  font-size: 40px;
+  color: rgb(66, 105, 233);
   margin-top: 15px;
-  font-weight: bolder;
+ 
 }
 .blog-preview {
   padding: 20px;
@@ -135,9 +137,10 @@
 .create label {
   text-align: left;
   display: block;
+  font-size: 20px;
 }
 .create h2 {
-  font-size: 30px;
+  font-size: 35px;
   color: #fff;
   margin-bottom: 30px;
   margin-top: 60px;
@@ -222,11 +225,12 @@ section {
   background: #777;
   margin: 30px 0;
 }
-.content p {
+.about {
   padding-bottom: 15px;
   font-weight: 300;
   width: 60%;
-  text-align: center;
+   text-indent: 30px;
+  text-align:center;
   margin: 0 auto;
   line-height: 1.7;
   color: black;
@@ -241,11 +245,14 @@ section {
   padding: 10px 15px;
   width: 160px;
   text-align: center;
+  background-color:rgb(236, 154, 86);
+  opacity: 0.9;
 }
 .links li a {
   text-transform: uppercase;
-  color: rgb(36, 35, 35);
+  color: rgb(250, 245, 245);
   text-decoration: none;
+  font-weight: bold;
 }
 .links li:hover {
   border-color: #06d6a0;
@@ -280,7 +287,9 @@ section {
   color: #fff;
   margin-top: 50px;
 }
-
+.svg-inline--fa {
+  margin-right: 10px;
+}
 /*****************/
 
 
@@ -448,6 +457,7 @@ figure img{
 margin: 0px;
 display: flex;
 align-items: center;
+font-size: 14px;
 }
 section {
   display: inline;
@@ -523,6 +533,7 @@ font-size: 14px
 }
 .links li{
   font-size: 10px;
+  padding: 5px;
 }
 section {
   display: inline;
@@ -531,6 +542,9 @@ section {
   margin-top: 20px;
   font-size: 16px;
   width: 70%;
+}
+.content p{
+  font-size: 12px;
 }
 .image img{
   display: block;

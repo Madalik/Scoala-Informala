@@ -15,10 +15,10 @@ function Header() {
           <h1>The Orange blog</h1>
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ms-auto">
-              <Link to="/">All titles</Link>
+              <Link to="/">Travel reviews</Link>
+              <Link to="/travelhints">Travel Hints</Link>
               <Link to="/create">Add Blog</Link>
               <Link to="/about">About me</Link>
-              <Link to="/resources">Resources</Link>
             </ul>
           </div>
         </div>

@@ -11,6 +11,8 @@ const BlogDetails = () => {
 
   const history = useHistory();
 
+  const backPage = () => history.push("/");
+
   const handleRedirectToEdit = () => history.push(`/blogs/${id}/edit`);
 
   const handleClick = () => {
@@ -32,8 +34,9 @@ const BlogDetails = () => {
               <h2>{blog.title}</h2>
               <p>Written by {blog.author}</p>
               <div>{blog.body}</div>
-              <button onClick={handleClick}>Delete</button>
+              <button onClick={backPage}>Back</button>
               <button onClick={handleRedirectToEdit}>Edit</button>
+              <button onClick={handleClick}>Delete</button>
             </article>
           )}
         </div>
