@@ -16,7 +16,7 @@ const About = () => {
           that my determination, my learning and growing desire will take me
           very quickly to higher levels in Web Designing. <br></br>
           My hobbies include
-          traveling, skiing and hiking. Sincer I am curently in the learning
+          traveling, skiing and hiking. Since I am curently in the learning
           stage, I am looking forward to excitind projects to work on.
         </p>
         <ul className="links">

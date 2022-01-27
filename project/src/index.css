@@ -255,10 +255,10 @@ section {
   font-weight: bold;
 }
 .links li:hover {
-  border-color: #06d6a0;
+  border-color: #d60610;
 }
 .links li:hover a {
-  color: #06d6a0;
+  color: #d60610;
 }
 .vertical-line {
   height: 30px;
@@ -473,6 +473,12 @@ section {
   height:140px;
   margin-left: 50px;
 }
+.mb-0.text-small{
+  font-size: 14px;
+}
+.btn.btn-outline-warning{
+  font-size: 12px;
+}
 }
 
 @media (max-width: 576px) {
@@ -551,6 +557,12 @@ section {
   object-fit:cover;
   height:120px;
   margin-left: 80px;
+}
+.mb-0.text-small{
+  font-size: 14px;
+}
+.btn.btn-outline-warning{
+  font-size: 12px;
 }
 }
 
@@ -633,5 +645,11 @@ section {
   object-fit:cover;
   height:120px;
   margin-left: 60px;
+}
+.mb-0.text-small{
+  font-size: 12px;
+}
+.btn.btn-outline-warning{
+  font-size: 10px;
 }
 }
